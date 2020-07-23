@@ -1,0 +1,12 @@
+﻿<Application x:Class="InformatorGorlicki.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:InformatorGorlicki"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="ImStart" UriSource="./res/img/start.png"  />
+        <ImageBrush  x:Key="ImStartBrush" ImageSource="{StaticResource ResourceKey=ImStart}"/>
+        <BitmapImage x:Key="ImStop" UriSource="./res/img/stop.png"  />
+        <ImageBrush  x:Key="ImStopBrush" ImageSource="{StaticResource ResourceKey=ImStop}"/>
+    </Application.Resources>
+</Application>
